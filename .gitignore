@@ -6,6 +6,7 @@
 *.tfstate
 *.tfstate.*
 
+
 # Crash log files
 crash.log
 
@@ -34,3 +35,5 @@ credentials.json
 # example: *tfplan*
 
 .DS_Store
+twistcli
+
