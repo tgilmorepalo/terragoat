@@ -14,6 +14,7 @@ resource "azurerm_storage_account" "security_storage_account" {
     git_org              = "tgilmorepalo"
     git_repo             = "terragoat"
     yor_trace            = "4b504d4d-608c-45fe-ae56-807bde6d969f"
+    yor_name             = "security_storage_account"
   }
 }
 
@@ -33,6 +34,7 @@ resource "azurerm_mssql_server" "mssql1" {
     git_org              = "tgilmorepalo"
     git_repo             = "terragoat"
     yor_trace            = "54f6cb23-b30a-4f1d-8064-6f777b9b75db"
+    yor_name             = "mssql1"
   }
 }
 
@@ -52,6 +54,7 @@ resource "azurerm_mssql_server" "mssql2" {
     git_org              = "tgilmorepalo"
     git_repo             = "terragoat"
     yor_trace            = "096d2cf2-6d47-41b2-9418-cdedea85e184"
+    yor_name             = "mssql2"
   }
 }
 
@@ -71,6 +74,7 @@ resource "azurerm_mssql_server" "mssql3" {
     git_org              = "tgilmorepalo"
     git_repo             = "terragoat"
     yor_trace            = "e71d3fb5-addc-481d-ada6-b7432a768de3"
+    yor_name             = "mssql3"
   }
 }
 
@@ -90,6 +94,7 @@ resource "azurerm_mssql_server" "mssql4" {
     git_org              = "tgilmorepalo"
     git_repo             = "terragoat"
     yor_trace            = "c3b85724-4f7e-4c63-a17d-3d04239beae8"
+    yor_name             = "mssql4"
   }
 }
 
@@ -109,6 +114,7 @@ resource "azurerm_mssql_server" "mssql5" {
     git_org              = "tgilmorepalo"
     git_repo             = "terragoat"
     yor_trace            = "0240ca84-acc9-47d9-b491-9e7e359787a1"
+    yor_name             = "mssql5"
   }
 }
 
@@ -128,6 +134,7 @@ resource "azurerm_mssql_server" "mssql6" {
     git_org              = "tgilmorepalo"
     git_repo             = "terragoat"
     yor_trace            = "042d15fb-edfa-484b-b65e-3d70c50cdee7"
+    yor_name             = "mssql6"
   }
 }
 
@@ -147,6 +154,7 @@ resource "azurerm_mssql_server" "mssql7" {
     git_org              = "tgilmorepalo"
     git_repo             = "terragoat"
     yor_trace            = "3f1118e1-5067-452e-906f-5123cfc93711"
+    yor_name             = "mssql7"
   }
 }
 

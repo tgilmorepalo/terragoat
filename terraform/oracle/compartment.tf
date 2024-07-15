@@ -12,5 +12,6 @@ resource "oci_identity_compartment" "tf-compartment" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "20f6ad13-d679-4c7a-8d1b-befdd7f16b97"
+    yor_name             = "tf-compartment"
   }
 }
